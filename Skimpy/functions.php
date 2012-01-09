@@ -16,7 +16,7 @@ if ( function_exists('register_sidebar') )
 register_sidebar(array('name'=>'Sidebar',
 'before_widget' => '<li class="widget">',
 'after_widget' => '</li>',
-'before_title' => '<h2 class="widgettitle">',
+'before_title' => '<h3 class="widgettitle">',
 'after_title' => '</h3>',
 ));
 // A little credit on the dashboard footer... You can get rid of this or change it if you'd like. But if you feel like you want to support the creator, please leave it. I'd appreciate it. It's not like anyone is really going to see it anyways.
